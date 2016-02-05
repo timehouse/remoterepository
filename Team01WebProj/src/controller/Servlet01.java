@@ -24,6 +24,13 @@ public class Servlet01 extends HttpServlet {
 		System.out.println("this is Servlet01");
 		System.out.println("fdsfds");
 		
+
+		System.out.println("000");
+
+
+		System.out.println("eeit8316");
+		System.out.println("haha");
+
 	}
 
 	
