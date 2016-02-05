@@ -58,7 +58,7 @@
   
   <servlet>
  <servlet-name>Servlet06</servlet-name>
-  <servlet-class>conrtoller.Servlet06</servlet-class>
+  <servlet-class>controller.Servlet06</servlet-class>
   </servlet>
   <servlet-mapping>
   <servlet-name>Servlet06</servlet-name>
