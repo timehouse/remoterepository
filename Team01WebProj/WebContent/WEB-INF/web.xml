@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
   <display-name>Struts</display-name>
-    <resource-ref>
+  
+  <servlet>
+  	<servlet-name>Servlet01</servlet-name>
+  	<servlet-class>controller.Servlet01</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Servlet01</servlet-name>
+  	<url-pattern>/controller.Servlet01</url-pattern>
+  </servlet-mapping>
+  
+  
+  <resource-ref>
     <description>JNDI DataSource </description>
     <res-ref-name>jdbc/xxx</res-ref-name>
     <res-type>javax.sql.DataSource</res-type>
