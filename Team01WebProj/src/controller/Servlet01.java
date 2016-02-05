@@ -22,6 +22,7 @@ public class Servlet01 extends HttpServlet {
 			HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("this is Servlet01");
+		System.out.println("000");
 	}
 
 	
