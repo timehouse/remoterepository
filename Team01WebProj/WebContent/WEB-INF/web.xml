@@ -16,5 +16,13 @@
   	<servlet-name>Servlet03</servlet-name>
   	<url-pattern>/servlet03.controller</url-pattern>
   </servlet-mapping>
-  
+    
+  <servlet>
+  <servlet-name>Servlet06</servlet-name>
+  <servlet-class>conrtoller.Servlet06</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Servlet06</servlet-name>
+  <url-pattern>/Servlet06</url-pattern>
+  </servlet-mapping>
 </web-app>
