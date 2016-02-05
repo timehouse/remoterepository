@@ -9,6 +9,16 @@
   </resource-ref>
   
   <servlet>
+  	<servlet-name>Servlet01</servlet-name>
+  	<servlet-class>controller.Servlet01</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Servlet01</servlet-name>
+  	<url-pattern>/controller.Servlet01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
   	<servlet-name>Servlet03</servlet-name>
   	<servlet-class>controller.Servlet03</servlet-class>
   </servlet>
@@ -25,4 +35,6 @@
   <servlet-name>Servlet06</servlet-name>
   <url-pattern>/Servlet06</url-pattern>
   </servlet-mapping>
+
+
 </web-app>
