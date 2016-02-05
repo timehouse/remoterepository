@@ -1,4 +1,19 @@
+<<<<<<< HEAD
 /build/
 /.settings/
 /.classpath
 /.project
+=======
+<<<<<<< HEAD
+/build/
+/.settings/
+/.classpath
+/.project
+=======
+/bin/
+/build/
+/.classpath
+/.project
+/.settings/
+>>>>>>> branch 'master' of https://github.com/timehouse/remoterepository.git
+>>>>>>> branch 'master' of https://github.com/timehouse/remoterepository.git
