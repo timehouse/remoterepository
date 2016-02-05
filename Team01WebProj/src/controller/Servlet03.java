@@ -11,7 +11,9 @@ public class Servlet03 extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.println("this is Servlet03");
+		System.out.println("this is Servlet01");
+		System.out.println("this is Servlet01");
+		
 	}
 
 	@Override
