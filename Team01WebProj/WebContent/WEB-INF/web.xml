@@ -1,12 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
   <display-name>Struts</display-name>
-    <resource-ref>
+
+
+
+  <resource-ref>
     <description>JNDI DataSource </description>
     <res-ref-name>jdbc/xxx</res-ref-name>
     <res-type>javax.sql.DataSource</res-type>
     <res-auth>Container</res-auth>
   </resource-ref>
+
+  <servlet>
+  	<servlet-name>Servlet01</servlet-name>
+  	<servlet-class>controller.Servlet01</servlet-class>
+  </servlet> 
+  <servlet-mapping>
+  	<servlet-name>Servlet01</servlet-name>
+  	<url-pattern>/controller.Servlet01</url-pattern>
+  </servlet-mapping>
+
+  	<servlet>
+		<servlet-name>Servlet02</servlet-name>
+		<servlet-class>controller.Servlet02</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Servlet02</servlet-name>
+		<url-pattern>/servlet02.controller</url-pattern>
+	</servlet-mapping>
+
+  <servlet>
+  	<servlet-name>Servlet03</servlet-name>
+  	<servlet-class>controller.Servlet03</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Servlet03</servlet-name>
+  	<url-pattern>/servlet03.controller</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Servlet04</servlet-name>
+  <servlet-class>controller.Servlet04</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Servlet04</servlet-name>
+  <url-pattern>/Servlet04</url-pattern>
+  </servlet-mapping>
   
   <servlet>
   <servlet-name>Servlet05</servlet-name>
@@ -15,6 +54,15 @@
   <servlet-mapping>
   <servlet-name>Servlet05</servlet-name>
   <url-pattern>/servlet05.controller</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> 
   
+  <servlet>
+ <servlet-name>Servlet06</servlet-name>
+  <servlet-class>conrtoller.Servlet06</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>Servlet06</servlet-name>
+  <url-pattern>/Servlet06</url-pattern>
+  </servlet-mapping>
+
 </web-app>
