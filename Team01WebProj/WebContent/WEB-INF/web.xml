@@ -27,7 +27,7 @@
   <url-pattern>/Servlet04</url-pattern>
   </servlet-mapping>
   
-
+  <servlet>
   <servlet-name>Servlet06</servlet-name>
   <servlet-class>conrtoller.Servlet06</servlet-class>
   </servlet>
