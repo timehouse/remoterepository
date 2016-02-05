@@ -21,6 +21,7 @@ while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
 	out.println("<h3>"+col1+":"+col2+"</h3>");
+	System.out.print("亂改一個");
 }
 rset.close();
 stmt.close();
